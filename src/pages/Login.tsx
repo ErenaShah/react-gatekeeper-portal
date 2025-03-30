@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react";
@@ -26,7 +25,9 @@ const Login: React.FC = () => {
   return (
     <div className="login-container">
       <div className="logo-container">
-        <BalaLogo />
+        <Link to="/">
+          <BalaLogo />
+        </Link>
       </div>
       <Card className="login-card">
         <CardHeader>

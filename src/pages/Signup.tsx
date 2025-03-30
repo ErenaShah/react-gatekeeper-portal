@@ -27,7 +27,9 @@ const Signup: React.FC = () => {
     <div className="signup-container">
       <div className="signup-left-panel">
         <div className="logo-container">
-          <BalaLogo />
+          <Link to="/">
+            <BalaLogo />
+          </Link>
         </div>
         <div className="welcome-text">
           <h1>Welcome.</h1>
